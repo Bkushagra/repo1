@@ -376,7 +376,7 @@ class _SimpleCalculatorState extends State<SimpleCalculator> {
               Expanded(
                 child: FlatButton(onPressed: (){
                   setState(() {
-
+                    expression=expression.replaceAll('%', '/100');
                     expression = expression.replaceAll('×', '*');
                     expression = expression.replaceAll('÷', '/');
                     try{
