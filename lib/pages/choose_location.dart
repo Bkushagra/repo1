@@ -1,16 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:weatherapp/services/weather.dart';
 
-class MyApp extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      title: 'choose_location_page',
-      home: ChooseLocation(),
-    );
-  }
-}
 
 class ChooseLocation extends StatefulWidget {
   const ChooseLocation({Key? key}) : super(key: key);
