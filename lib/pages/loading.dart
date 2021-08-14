@@ -2,17 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:weatherapp/services/weather.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
 
-class MyApp extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      title: 'loading page',
-      home: Loading(),
-    );
-  }
-}
-
 class Loading extends StatefulWidget {
 
   @override
