@@ -1,2 +1,2 @@
 # repo1
-1st repository
+for iste projects calculator,weatherapp
